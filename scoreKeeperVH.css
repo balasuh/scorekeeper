@@ -1,0 +1,221 @@
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.winner {
+    font-size: 1.2em;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    background-image: radial-gradient(circle, rgba(0, 0, 255, 0.256), rgba(7, 220, 209, 0.571), rgba(184, 16, 83, 0.247), rgba(243, 147, 2, 0.32));
+    /* background-repeat: no-repeat; */
+    background-size: 100% auto;
+    /* background: url("background.gif");
+    background-repeat: no-repeat;
+    background-size: 100% auto; */
+}
+
+.current-score {
+    font-size: 2em;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin-top: 3em;
+    /* width: 760px; */
+}
+
+button {
+    font-size: 1em;
+    background-color: rgba(250, 235, 215, 0.7);
+    /* opacity: 80%; */
+    border: 1px solid black;
+    transition: ease-in-out;
+    transition-duration: 200ms;
+    padding: 0.4em 0.8em;
+    /* border-radius: 2em; */
+}
+
+button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+button:disabled {
+    background-color: rgba(250, 235, 215, 0.3);
+    color: rgb(184, 182, 182);
+}
+
+.reset:hover {
+    background-color: #f13f09;
+    /* Green */
+    color: white;
+}
+
+select {
+    font-size: 1em;
+}
+
+@media (min-width: 100px) {
+
+    .container {
+        font-size: 1.25rem;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-top: 8em;
+    }
+
+    h3,
+    label {
+        font-size: 1em;
+    }
+
+    .current-score {
+        font-size: 2em;
+    }
+
+    .buttonGroup {
+        display: flex;
+        flex-direction: column;
+        /* width: 10em; */
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    button {
+        border-radius: 2em;
+    }
+}
+
+@media (min-width: 500px) {
+
+    .container {
+        font-size: 1.25rem;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-top: 8em;
+    }
+
+    h3,
+    label {
+        font-size: 1em;
+    }
+
+    .current-score {
+        font-size: 2em;
+    }
+
+    .buttonGroup {
+        display: flex;
+        flex-direction: row;
+        /* width: 10em; */
+        justify-content: center;
+    }
+
+    button {
+        font-size: 1.2em;
+        background-color: rgba(250, 235, 215, 0.7);
+        border: 1px solid black;
+        transition: ease-in-out;
+        transition-duration: 200ms;
+        padding: 0.4em 0.8em;
+        border-radius: 0.1em;
+    }
+}
+
+@media (min-width: 700px) {
+
+    .container {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-top: 7em;
+    }
+
+    h3,
+    label {
+        font-size: 1em;
+    }
+
+    .current-score {
+        font-size: 2em;
+    }
+
+    /* .buttonGroup {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+    }*/
+}
+
+@media (min-width: 900px) {
+
+    .container {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-top: 5em;
+    }
+
+    h3,
+    label {
+        font-size: 1em;
+    }
+
+    .current-score {
+        font-size: 2em;
+    }
+
+    /* .buttonGroup {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+    }*/
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-top: 2em;
+    }
+
+    h3,
+    label {
+        font-size: 1em;
+    }
+
+    .current-score {
+        font-size: 2em;
+    }
+
+    /* .buttonGroup {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+    }*/
+}
